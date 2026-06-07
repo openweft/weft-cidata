@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	cloudinit "github.com/openweft/cloud-init"
+	cloudinit "github.com/openweft/weft-cidata"
 )
 
 const sector = 2048

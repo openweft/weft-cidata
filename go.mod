@@ -1,3 +1,3 @@
-module github.com/openweft/cloud-init
+module github.com/openweft/weft-cidata
 
 go 1.25.0
