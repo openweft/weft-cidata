@@ -1,4 +1,4 @@
-# cloud-init
+# weft-cidata
 
 Pure-Go builder for [cloud-init](https://cloudinit.readthedocs.io/) NoCloud seed images.
 
@@ -7,7 +7,7 @@ Generates minimal ISO 9660 images containing `meta-data` and `user-data`, direct
 ## Module
 
 ```
-github.com/openweft/cloud-init
+github.com/openweft/weft-cidata
 ```
 
 ## API
@@ -24,7 +24,7 @@ func BuildSSHCloudConfig(sshPubKeys []string, extraCommands string) string
 ## Usage
 
 ```go
-import cloudinit "github.com/openweft/cloud-init"
+import cloudinit "github.com/openweft/weft-cidata"
 
 userData := cloudinit.BuildSSHCloudConfig([]string{pubKey}, "")
 iso, err := cloudinit.BuildCloudInitISO("instance-001", "my-vm", userData)
