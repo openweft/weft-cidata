@@ -1,3 +1,5 @@
+<p align="center"><img src="https://raw.githubusercontent.com/openweft/brand/main/social/openweft.png" alt="openweft" width="720"></p>
+
 # weft-cidata
 
 Pure-Go builder for [cloud-init](https://cloudinit.readthedocs.io/) NoCloud seed images.
