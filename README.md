@@ -38,4 +38,4 @@ os.WriteFile("seed.iso", iso, 0o644)
 
 ## Used by
 
-- [`weft`](../weft) — injects cloud-init ISO into provisioned VMs
+- [`weft`](https://github.com/openweft/weft) — injects cloud-init ISO into provisioned VMs
